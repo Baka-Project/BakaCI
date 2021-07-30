@@ -6,7 +6,7 @@ name: vcyzteen
 steps: 
   - 
     commands: 
-      - "bash setup.sh"
+      - "bash setup"
     environment: 
       TELEGRAM_TOKEN: 
         from_secret: BOT_API_KEY
