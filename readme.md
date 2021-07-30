@@ -1,6 +1,6 @@
 **Read before use**
 
-  * So guys if you use my docker you can build with minimum spek because what?
+  * So guys if you use my docker you can build with minimum spek & time because what?
   because toolchain is include in this docker
   * Where location of the path? so you can find in this directory
   * /root/proton `as proton toolchain by @kdragon`
