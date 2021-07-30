@@ -1,0 +1,20 @@
+--- 
+clone: 
+  depth: 1
+kind: pipeline
+name: vcyzteen
+steps: 
+  - 
+    commands: 
+      - "bash setup.sh"
+    environment: 
+      TELEGRAM_TOKEN: 
+        from_secret: BOT_API_KEY
+      GITHUB_TOKEN:
+        from_secret: GH_TOKEN
+    image: fadlyas/kernel_dockerfile:latest
+    name: iocode
+    trigger: 
+      branch: 
+        - unified-tes
+
