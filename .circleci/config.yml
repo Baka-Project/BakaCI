@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   compile:
    docker:
-      - image: ubuntu:20.04
+      - image: vcyzteen/ubuntu:latest
    steps:
       - run:
           command: |
@@ -16,7 +16,7 @@ jobs:
             git config --global user.name "vcyzteen"
             git config --global user.email "vcyzscape@gmail.com"
             # write your neen in bellow like git clone & push
-	    # build something kernel or whatever you want
+            # build something kernel or whatever you want
           no_output_timeout : 5h
 workflows:
   version: 2.1
