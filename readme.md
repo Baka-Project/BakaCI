@@ -1,3 +1,6 @@
+<p align="center">
+<img src="img/baka-ci.png" />
+
 **Read before use**
 
   * So guys if you use my docker you can build with minimum spek & time because what?
