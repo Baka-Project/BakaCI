@@ -3,6 +3,7 @@
 
 **Read before use**
 
+  * configuration of `github.action` make folder with `.github/workflow` in your repo
   * configuration of `semaphore.ci` make folder with `.semaphore` in your repo
   * configuration of `circle.ci` make folder with `.circleci` in your repo
   * configuration of `travis.ci` make file with `.travis.yml` in your repo
