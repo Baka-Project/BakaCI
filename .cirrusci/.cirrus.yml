@@ -1,0 +1,6 @@
+pipe:
+  name: BakaCI
+  steps:
+    - image: vcyzteen/ubuntu:latest
+      build_script: setup
+
