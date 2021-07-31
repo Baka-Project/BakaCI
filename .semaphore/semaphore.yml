@@ -1,16 +1,19 @@
 version: v1.0
-name: semaphore
+name: Machine
 agent:
   machine:
-    type: e1-standard-8
-    os_image: ubuntu1804
+    type: e1-standard-2
+
+  containers:
+    - name: "Docker"
+      image: 'vcyzteen/ubuntu:latest'
 
 blocks:
-  - name: "Runner"
+  - name: "Branch"
     run:
-        when: "branch = '<name of branch repo'"
+        when: "branch = '<name your branch>'"
     task:
       jobs:
-      - name: Start
+      - name: Execute
         commands:
           - bash setup
