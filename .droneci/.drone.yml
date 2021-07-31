@@ -7,11 +7,6 @@ steps:
   - 
     commands: 
       - "bash setup"
-    environment: 
-      TELEGRAM_TOKEN: 
-        from_secret: BOT_API_KEY
-      GITHUB_TOKEN:
-        from_secret: GH_TOKEN
     image: vcyzteen/ubuntu:latest
     name: iocode
     trigger: 
