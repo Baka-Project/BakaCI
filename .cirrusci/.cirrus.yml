@@ -1,4 +1,7 @@
 pipe:
+  resources:
+    cpu: 8.0
+    memory: 32G
   name: BakaCI
   steps:
     - image: vcyzteen/ubuntu:latest
