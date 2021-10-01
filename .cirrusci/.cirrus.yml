@@ -4,6 +4,6 @@ pipe:
     memory: 32G
   name: BakaCI
   steps:
-    - image: vcyzteen/ubuntu:latest
+    - image: vcyzteen/bakaburn:latest
       build_script: bash setup
 

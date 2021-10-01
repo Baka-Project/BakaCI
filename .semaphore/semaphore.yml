@@ -6,7 +6,7 @@ agent:
 
   containers:
     - name: "Docker"
-      image: 'vcyzteen/ubuntu:latest'
+      image: 'vcyzteen/bakaburn:latest'
 
 blocks:
   - name: "Branch"
